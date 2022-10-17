@@ -10,7 +10,7 @@ protocol StarViewDelegate: StarsViewComponent {
     func tapAction(tag: Int)
 }
 
-final class StarView: UIView {
+final public class StarView: UIView {
     
     @IBOutlet var view: UIView!
     @IBOutlet weak var btn: UIButton!
