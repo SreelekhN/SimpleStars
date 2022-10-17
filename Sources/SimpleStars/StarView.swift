@@ -27,9 +27,7 @@ final public class StarView: UIView {
         addView(subview: view)
     }
     
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        registerView()
-        addView(subview: view)
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)!
     }
 }
