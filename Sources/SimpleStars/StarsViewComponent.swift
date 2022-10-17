@@ -53,6 +53,7 @@ public final class StarsViewComponent: UIView, StarViewDelegate {
     
     public func reloadData() {
         guard let delegate else { return }
+        self.btnViews.removeAll()
         self.createStars(delegate: delegate)
         self.rating = delegate.currentRating()
     }
