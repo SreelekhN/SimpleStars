@@ -44,7 +44,7 @@ public final class StarsViewComponent: UIView, StarViewDelegate {
     @IBOutlet var view: UIView!
     @IBOutlet weak var stackView: UIStackView!
     
-    private var btnViews = [StarView]()
+    private var btnViews: [StarView] = []
     public weak var delegate: SimpleStarsViewBinding? {
         didSet {
             self.reloadData()
@@ -53,7 +53,6 @@ public final class StarsViewComponent: UIView, StarViewDelegate {
     
     public func reloadData() {
         guard let delegate else { return }
-        self.btnViews.removeAll()
         self.createStars(delegate: delegate)
         self.rating = delegate.currentRating()
     }
