@@ -9,75 +9,75 @@
 /* Begin PBXBuildFile section */
 		0AA4ADB6031C17F4368F93C7F7EBDC56 /* Pods-SimpleStars_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29506E12553997AB85E4C5908E045505 /* Pods-SimpleStars_Tests-dummy.m */; };
 		13EC24F0DD1FB8EE2770F93011D443C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2D224D2829D3046C002EF2B8 /* StarsViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D224D2329D3046C002EF2B8 /* StarsViewComponent.swift */; };
-		2D224D2929D3046C002EF2B8 /* StarsViewComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D224D2429D3046C002EF2B8 /* StarsViewComponent.xib */; };
-		2D224D2A29D3046C002EF2B8 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D224D2529D3046C002EF2B8 /* StarView.swift */; };
-		2D224D2B29D3046C002EF2B8 /* StarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D224D2629D3046C002EF2B8 /* StarView.xib */; };
-		2D224D2C29D3046C002EF2B8 /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D224D2729D3046C002EF2B8 /* Extension+.swift */; };
-		3D8499B10996B8DBAE8A7F3135E6FFB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		142ED04414BCD793B8E1862129862D62 /* SimpleStars-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78A63FA15FB5954EE260D9C148126F /* SimpleStars-dummy.m */; };
 		5B7E584C3785C62FAB5C8C508EEA8FFB /* Pods-SimpleStars_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2B8846F5AF23DBF638B7740A893C1F /* Pods-SimpleStars_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65E2C99A8F1F832B65F82DAD42ED06B8 /* SimpleStars-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 151B58303382942C24478580EEFEF8A2 /* SimpleStars-dummy.m */; };
-		6801AE4BF045296D97D86F2F2E1CBA14 /* SimpleStars-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDFEB7384B4CD8C4DD0000A7FFCE375 /* SimpleStars-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		640A0CEFB8BEBD706E4EDB8FA603C8C7 /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7CBFA639707F45D17A2D4BA1A8C2C7 /* Extension+.swift */; };
+		769E5BBB910C744F9991CA196A09D388 /* SimpleStars-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB1B099EF84FF73B3D93249F17CF8CE /* SimpleStars-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7979C9CF467262F2E4EA9F04665563D0 /* StarsViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037172371B34C7C1BBA234FC3042CAC2 /* StarsViewComponent.swift */; };
 		8F55D3FF835834B61BDF001D59D7D62D /* Pods-SimpleStars_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA52BE193229DC88B7673C048B2FA9 /* Pods-SimpleStars_Example-dummy.m */; };
 		90ACCF872C0AA09D2F12D1CC52D9293F /* Pods-SimpleStars_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 211E1A2AF8F2FE4F500ACD72964848C0 /* Pods-SimpleStars_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		949B68D4E28CE4ECF1C8327B3DD2086B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AD7A72428C920E3A6D3EEE5561B5A0B5 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF6CDE7E36A9DD9A81FE251688537CC /* StarView.swift */; };
+		D85724A6D0C7B97B6D53C8FEA4EE10E5 /* StarsViewComponent.xib in Sources */ = {isa = PBXBuildFile; fileRef = D46415C4BF9296324B26BF0A77940D4E /* StarsViewComponent.xib */; };
 		DB148DE3D576FE5900AB94305616E657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F8C72A95B5F84EF3D34E51E04E1435E0 /* StarView.xib in Sources */ = {isa = PBXBuildFile; fileRef = DC03365979E132444085AD0B824FFE55 /* StarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3139B910E7EE2898BB78468E4648F66B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3EFBF3A50C6B9DE75FFBEE3618F58B25;
-			remoteInfo = SimpleStars;
-		};
-		538EC5AC6499B6976913B279B88C645F /* PBXContainerItemProxy */ = {
+		320F03CF066628D80912D10114CD6514 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4E6137725614847D52A0F69E1A75955;
 			remoteInfo = "Pods-SimpleStars_Example";
 		};
+		D7E6D103A4D3CB13C3BF3099EBE69999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EFBF3A50C6B9DE75FFBEE3618F58B25;
+			remoteInfo = SimpleStars;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037172371B34C7C1BBA234FC3042CAC2 /* StarsViewComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarsViewComponent.swift; path = Source/StarsViewComponent.swift; sourceTree = "<group>"; };
 		10D57922294033B6C67A596D19587BFE /* Pods-SimpleStars_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleStars_Tests.modulemap"; sourceTree = "<group>"; };
 		13CA52BE193229DC88B7673C048B2FA9 /* Pods-SimpleStars_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleStars_Example-dummy.m"; sourceTree = "<group>"; };
-		14B398398C3998919F22BEC8ADAFFD9E /* SimpleStars-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleStars-prefix.pch"; sourceTree = "<group>"; };
-		151B58303382942C24478580EEFEF8A2 /* SimpleStars-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleStars-dummy.m"; sourceTree = "<group>"; };
+		145A080B20C7BE822E3ACB63858FF979 /* SimpleStars-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleStars-prefix.pch"; sourceTree = "<group>"; };
 		211E1A2AF8F2FE4F500ACD72964848C0 /* Pods-SimpleStars_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleStars_Example-umbrella.h"; sourceTree = "<group>"; };
-		241AE0AC33E562E8E093134487F214E2 /* SimpleStars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleStars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		282E55107ECAC0049B9AAB2CB0D1B1CC /* Pods_SimpleStars_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleStars_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BDEB9FB3C1F5E3AEB60BA6ABAC4FE9 /* SimpleStars-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleStars-Info.plist"; sourceTree = "<group>"; };
+		241AE0AC33E562E8E093134487F214E2 /* SimpleStars */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleStars; path = SimpleStars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		282E55107ECAC0049B9AAB2CB0D1B1CC /* Pods-SimpleStars_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SimpleStars_Tests"; path = Pods_SimpleStars_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29506E12553997AB85E4C5908E045505 /* Pods-SimpleStars_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleStars_Tests-dummy.m"; sourceTree = "<group>"; };
-		2D224D2329D3046C002EF2B8 /* StarsViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarsViewComponent.swift; sourceTree = "<group>"; };
-		2D224D2429D3046C002EF2B8 /* StarsViewComponent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarsViewComponent.xib; sourceTree = "<group>"; };
-		2D224D2529D3046C002EF2B8 /* StarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
-		2D224D2629D3046C002EF2B8 /* StarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarView.xib; sourceTree = "<group>"; };
-		2D224D2729D3046C002EF2B8 /* Extension+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
 		2D578D42623F01868397FCC278821FBF /* Pods-SimpleStars_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleStars_Tests-Info.plist"; sourceTree = "<group>"; };
 		31ECAEC47AA14CDB96BF5BBE7AE6CA96 /* Pods-SimpleStars_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleStars_Example-Info.plist"; sourceTree = "<group>"; };
+		3FC16712A240576A08A3D45E7E7ABDCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C78A63FA15FB5954EE260D9C148126F /* SimpleStars-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleStars-dummy.m"; sourceTree = "<group>"; };
 		53E48D2C7A0DCD70420C2F709B5AF722 /* Pods-SimpleStars_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleStars_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5435C3A8C00FFB78201F6F598A608165 /* SimpleStars.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleStars.modulemap; sourceTree = "<group>"; };
 		565663999660363DBAF3D577F9AF72AA /* Pods-SimpleStars_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleStars_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		571264BDB24BC8A8EACCED2E09B69FC7 /* SimpleStars.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimpleStars.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		606AD02C76D54A7AC28B40B3FEF043B0 /* Pods-SimpleStars_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleStars_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		67DAF5E416D526DE88F3B4A703D9D4B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F9B2BDDDB1A99919794E097D34D4B21 /* Pods-SimpleStars_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleStars_Example.release.xcconfig"; sourceTree = "<group>"; };
+		706FE05B35F68AD360733590768CBB94 /* SimpleStars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleStars.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75A1AE4D22AAA5586667C3598D3E1658 /* Pods-SimpleStars_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleStars_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7BF6CDE7E36A9DD9A81FE251688537CC /* StarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarView.swift; path = Source/StarView.swift; sourceTree = "<group>"; };
 		86B9F36A1BDCD13E53BC5AB372011EDC /* Pods-SimpleStars_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleStars_Example.modulemap"; sourceTree = "<group>"; };
-		87C0F06CB66B3FEAD8AF9651835BE8D7 /* SimpleStars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleStars.debug.xcconfig; sourceTree = "<group>"; };
-		9058B266EC632DF42EE1F166E92DDB5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		91AB0742C7A22011CEAB8FCAE7CA4275 /* SimpleStars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleStars.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CCB27EB68A3D66A61C4690378CB0AD4 /* SimpleStars.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimpleStars.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2B8846F5AF23DBF638B7740A893C1F /* Pods-SimpleStars_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleStars_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC2B5238E188B17D0FF20EBEEA45AFA9 /* Pods-SimpleStars_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleStars_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1B192A02433313DC425180598FDFBCB /* Pods-SimpleStars_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleStars_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C93696DF66E6986BE4E2BFE3AE28B5CD /* Pods-SimpleStars_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleStars_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB54A5B2FE9CBC42F9B12B59CB3C493B /* SimpleStars.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleStars.modulemap; sourceTree = "<group>"; };
-		CEDFEB7384B4CD8C4DD0000A7FFCE375 /* SimpleStars-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleStars-umbrella.h"; sourceTree = "<group>"; };
-		E1408C5174D7CC3E015A263B37FB0F88 /* Pods_SimpleStars_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleStars_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4CCFB29BC34EA614E1AD50E6F85CA66 /* SimpleStars-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleStars-Info.plist"; sourceTree = "<group>"; };
+		D46415C4BF9296324B26BF0A77940D4E /* StarsViewComponent.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StarsViewComponent.xib; path = Source/StarsViewComponent.xib; sourceTree = "<group>"; };
+		DC03365979E132444085AD0B824FFE55 /* StarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StarView.xib; path = Source/StarView.xib; sourceTree = "<group>"; };
+		E0E4186C9131FDEAF81F0CE8B8B6908A /* SimpleStars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleStars.release.xcconfig; sourceTree = "<group>"; };
+		E1408C5174D7CC3E015A263B37FB0F88 /* Pods-SimpleStars_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SimpleStars_Example"; path = Pods_SimpleStars_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC635BF48B8F6B519CD64A57F9049948 /* Pods-SimpleStars_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleStars_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB1B099EF84FF73B3D93249F17CF8CE /* SimpleStars-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleStars-umbrella.h"; sourceTree = "<group>"; };
+		FACBCD25B1A9FC7D71527D5183A7FC71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FC7CBFA639707F45D17A2D4BA1A8C2C7 /* Extension+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,61 +97,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8FC4D433AA5A4DB643322C0F9684012 /* Frameworks */ = {
+		9BA28ADE2FCC23D1CFC0A6F3A8C95106 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8499B10996B8DBAE8A7F3135E6FFB9 /* Foundation.framework in Frameworks */,
+				949B68D4E28CE4ECF1C8327B3DD2086B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2405F2085616FC4C9A5FFCC038771BF9 /* SimpleStars */ = {
+		38192E77383BCDB6CF230172029B7680 /* SimpleStars */ = {
 			isa = PBXGroup;
 			children = (
-				2D224D2D29D32197002EF2B8 /* Source */,
-				A72767EE267E9871EEAE06757CD2EF8A /* Pod */,
-				2D1F54598558B4360B0D57E4B854F962 /* Support Files */,
+				037172371B34C7C1BBA234FC3042CAC2 /* StarsViewComponent.swift */,
+				D46415C4BF9296324B26BF0A77940D4E /* StarsViewComponent.xib */,
+				7BF6CDE7E36A9DD9A81FE251688537CC /* StarView.swift */,
+				DC03365979E132444085AD0B824FFE55 /* StarView.xib */,
+				A236B1432ACE6978FA3B7667FD0C4583 /* Extensions */,
+				A4B58DD2BAF1DD62970371669328FF1A /* Pod */,
+				F9013068B0664C2B528613B33A0D05F5 /* Support Files */,
 			);
 			name = SimpleStars;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		2D1F54598558B4360B0D57E4B854F962 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CB54A5B2FE9CBC42F9B12B59CB3C493B /* SimpleStars.modulemap */,
-				151B58303382942C24478580EEFEF8A2 /* SimpleStars-dummy.m */,
-				E4CCFB29BC34EA614E1AD50E6F85CA66 /* SimpleStars-Info.plist */,
-				14B398398C3998919F22BEC8ADAFFD9E /* SimpleStars-prefix.pch */,
-				CEDFEB7384B4CD8C4DD0000A7FFCE375 /* SimpleStars-umbrella.h */,
-				87C0F06CB66B3FEAD8AF9651835BE8D7 /* SimpleStars.debug.xcconfig */,
-				91AB0742C7A22011CEAB8FCAE7CA4275 /* SimpleStars.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SimpleStars";
-			sourceTree = "<group>";
-		};
-		2D224D2D29D32197002EF2B8 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				2D224D2E29D321A7002EF2B8 /* Extensions */,
-				2D224D2329D3046C002EF2B8 /* StarsViewComponent.swift */,
-				2D224D2429D3046C002EF2B8 /* StarsViewComponent.xib */,
-				2D224D2529D3046C002EF2B8 /* StarView.swift */,
-				2D224D2629D3046C002EF2B8 /* StarView.xib */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		2D224D2E29D321A7002EF2B8 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2D224D2729D3046C002EF2B8 /* Extension+.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		53B68B250F5C531002EA4396D8BAF349 /* Targets Support Files */ = {
@@ -174,11 +143,19 @@
 		57C3E7F0B9354E1C7D48D8255F3EE5A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1408C5174D7CC3E015A263B37FB0F88 /* Pods_SimpleStars_Example.framework */,
-				282E55107ECAC0049B9AAB2CB0D1B1CC /* Pods_SimpleStars_Tests.framework */,
-				241AE0AC33E562E8E093134487F214E2 /* SimpleStars.framework */,
+				E1408C5174D7CC3E015A263B37FB0F88 /* Pods-SimpleStars_Example */,
+				282E55107ECAC0049B9AAB2CB0D1B1CC /* Pods-SimpleStars_Tests */,
+				241AE0AC33E562E8E093134487F214E2 /* SimpleStars */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6EED267596F5D073E9891E4097166CAC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38192E77383BCDB6CF230172029B7680 /* SimpleStars */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		845263FA29C42C4701690F32C6709ECD /* Pods-SimpleStars_Example */ = {
@@ -198,20 +175,21 @@
 			path = "Target Support Files/Pods-SimpleStars_Example";
 			sourceTree = "<group>";
 		};
-		A4049DCED078CDD4C8398FB85E6ADEAB /* Development Pods */ = {
+		A236B1432ACE6978FA3B7667FD0C4583 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2405F2085616FC4C9A5FFCC038771BF9 /* SimpleStars */,
+				FC7CBFA639707F45D17A2D4BA1A8C2C7 /* Extension+.swift */,
 			);
-			name = "Development Pods";
+			name = Extensions;
+			path = Source/Extensions;
 			sourceTree = "<group>";
 		};
-		A72767EE267E9871EEAE06757CD2EF8A /* Pod */ = {
+		A4B58DD2BAF1DD62970371669328FF1A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9058B266EC632DF42EE1F166E92DDB5D /* LICENSE */,
-				67DAF5E416D526DE88F3B4A703D9D4B5 /* README.md */,
-				571264BDB24BC8A8EACCED2E09B69FC7 /* SimpleStars.podspec */,
+				3FC16712A240576A08A3D45E7E7ABDCA /* LICENSE */,
+				FACBCD25B1A9FC7D71527D5183A7FC71 /* README.md */,
+				8CCB27EB68A3D66A61C4690378CB0AD4 /* SimpleStars.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -220,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A4049DCED078CDD4C8398FB85E6ADEAB /* Development Pods */,
+				6EED267596F5D073E9891E4097166CAC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				57C3E7F0B9354E1C7D48D8255F3EE5A6 /* Products */,
 				53B68B250F5C531002EA4396D8BAF349 /* Targets Support Files */,
@@ -251,17 +229,24 @@
 			path = "Target Support Files/Pods-SimpleStars_Tests";
 			sourceTree = "<group>";
 		};
+		F9013068B0664C2B528613B33A0D05F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5435C3A8C00FFB78201F6F598A608165 /* SimpleStars.modulemap */,
+				4C78A63FA15FB5954EE260D9C148126F /* SimpleStars-dummy.m */,
+				22BDEB9FB3C1F5E3AEB60BA6ABAC4FE9 /* SimpleStars-Info.plist */,
+				145A080B20C7BE822E3ACB63858FF979 /* SimpleStars-prefix.pch */,
+				ECB1B099EF84FF73B3D93249F17CF8CE /* SimpleStars-umbrella.h */,
+				706FE05B35F68AD360733590768CBB94 /* SimpleStars.debug.xcconfig */,
+				E0E4186C9131FDEAF81F0CE8B8B6908A /* SimpleStars.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleStars";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		09A19866153A555B19DA3BEF9A414026 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6801AE4BF045296D97D86F2F2E1CBA14 /* SimpleStars-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6F048E6FF1B191C36A97BE77C220FBCF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,17 +263,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB1D7946BB6CAA5E77492017ECDDA4D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769E5BBB910C744F9991CA196A09D388 /* SimpleStars-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3EFBF3A50C6B9DE75FFBEE3618F58B25 /* SimpleStars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B244B6E10B567BEEF012658BC9817348 /* Build configuration list for PBXNativeTarget "SimpleStars" */;
+			buildConfigurationList = EFD45B3747DAE7ED98C01D3E3B59D367 /* Build configuration list for PBXNativeTarget "SimpleStars" */;
 			buildPhases = (
-				09A19866153A555B19DA3BEF9A414026 /* Headers */,
-				51DA6F424C528320AA7725F77E03A52F /* Sources */,
-				E8FC4D433AA5A4DB643322C0F9684012 /* Frameworks */,
-				1DEACAA073564D4D5E0A0E5CFF4D5E9D /* Resources */,
+				CB1D7946BB6CAA5E77492017ECDDA4D0 /* Headers */,
+				D3E8A1A9B1C19A41B7C1C687BAB13D47 /* Sources */,
+				9BA28ADE2FCC23D1CFC0A6F3A8C95106 /* Frameworks */,
+				078DDA410F27B1D0ADB63E5B9C773522 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -296,7 +289,7 @@
 			);
 			name = SimpleStars;
 			productName = SimpleStars;
-			productReference = 241AE0AC33E562E8E093134487F214E2 /* SimpleStars.framework */;
+			productReference = 241AE0AC33E562E8E093134487F214E2 /* SimpleStars */;
 			productType = "com.apple.product-type.framework";
 		};
 		764F4B52DE93D57E757C0D4F4854DAF3 /* Pods-SimpleStars_Tests */ = {
@@ -311,11 +304,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				66143BF57F47033C51A85BDC1EF5BEFD /* PBXTargetDependency */,
+				F8ADA4E97E1C50961443584DBA37BF5C /* PBXTargetDependency */,
 			);
 			name = "Pods-SimpleStars_Tests";
 			productName = Pods_SimpleStars_Tests;
-			productReference = 282E55107ECAC0049B9AAB2CB0D1B1CC /* Pods_SimpleStars_Tests.framework */;
+			productReference = 282E55107ECAC0049B9AAB2CB0D1B1CC /* Pods-SimpleStars_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		B4E6137725614847D52A0F69E1A75955 /* Pods-SimpleStars_Example */ = {
@@ -330,11 +323,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				710B531266DD4F10126623BAA5B83B9E /* PBXTargetDependency */,
+				0AA24F0E66D6943E1E37E111116725F7 /* PBXTargetDependency */,
 			);
 			name = "Pods-SimpleStars_Example";
 			productName = Pods_SimpleStars_Example;
-			productReference = E1408C5174D7CC3E015A263B37FB0F88 /* Pods_SimpleStars_Example.framework */;
+			productReference = E1408C5174D7CC3E015A263B37FB0F88 /* Pods-SimpleStars_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -367,12 +360,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1DEACAA073564D4D5E0A0E5CFF4D5E9D /* Resources */ = {
+		078DDA410F27B1D0ADB63E5B9C773522 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D224D2B29D3046C002EF2B8 /* StarView.xib in Resources */,
-				2D224D2929D3046C002EF2B8 /* StarsViewComponent.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,17 +384,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		51DA6F424C528320AA7725F77E03A52F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65E2C99A8F1F832B65F82DAD42ED06B8 /* SimpleStars-dummy.m in Sources */,
-				2D224D2C29D3046C002EF2B8 /* Extension+.swift in Sources */,
-				2D224D2A29D3046C002EF2B8 /* StarView.swift in Sources */,
-				2D224D2829D3046C002EF2B8 /* StarsViewComponent.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		59AD7161F349969A1CC1C9BA2B4572FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -420,28 +400,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3E8A1A9B1C19A41B7C1C687BAB13D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640A0CEFB8BEBD706E4EDB8FA603C8C7 /* Extension+.swift in Sources */,
+				142ED04414BCD793B8E1862129862D62 /* SimpleStars-dummy.m in Sources */,
+				7979C9CF467262F2E4EA9F04665563D0 /* StarsViewComponent.swift in Sources */,
+				D85724A6D0C7B97B6D53C8FEA4EE10E5 /* StarsViewComponent.xib in Sources */,
+				AD7A72428C920E3A6D3EEE5561B5A0B5 /* StarView.swift in Sources */,
+				F8C72A95B5F84EF3D34E51E04E1435E0 /* StarView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		66143BF57F47033C51A85BDC1EF5BEFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SimpleStars_Example";
-			target = B4E6137725614847D52A0F69E1A75955 /* Pods-SimpleStars_Example */;
-			targetProxy = 538EC5AC6499B6976913B279B88C645F /* PBXContainerItemProxy */;
-		};
-		710B531266DD4F10126623BAA5B83B9E /* PBXTargetDependency */ = {
+		0AA24F0E66D6943E1E37E111116725F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleStars;
 			target = 3EFBF3A50C6B9DE75FFBEE3618F58B25 /* SimpleStars */;
-			targetProxy = 3139B910E7EE2898BB78468E4648F66B /* PBXContainerItemProxy */;
+			targetProxy = D7E6D103A4D3CB13C3BF3099EBE69999 /* PBXContainerItemProxy */;
+		};
+		F8ADA4E97E1C50961443584DBA37BF5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SimpleStars_Example";
+			target = B4E6137725614847D52A0F69E1A75955 /* Pods-SimpleStars_Example */;
+			targetProxy = 320F03CF066628D80912D10114CD6514 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B33E8C9EB1BB4559256ABA8EA7B85EA /* Debug */ = {
+		066A96F36E764B74650EFA28A4E1A52A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87C0F06CB66B3FEAD8AF9651835BE8D7 /* SimpleStars.debug.xcconfig */;
+			baseConfigurationReference = E0E4186C9131FDEAF81F0CE8B8B6908A /* SimpleStars.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -461,58 +455,21 @@
 				PRODUCT_NAME = SimpleStars;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		26E7B75F376CF2BDC93667F3BCA0D99D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC635BF48B8F6B519CD64A57F9049948 /* Pods-SimpleStars_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleStars_Tests/Pods-SimpleStars_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleStars_Tests/Pods-SimpleStars_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		33BDB2E46DA2C67DA135CDD020EB2215 /* Release */ = {
+		153F8403F287D3D981206408A4B24C3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC2B5238E188B17D0FF20EBEEA45AFA9 /* Pods-SimpleStars_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -535,9 +492,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -545,140 +499,7 @@
 			};
 			name = Release;
 		};
-		54D3F8EF3433B24A85B8E2002C69DB50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F9B2BDDDB1A99919794E097D34D4B21 /* Pods-SimpleStars_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleStars_Example/Pods-SimpleStars_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleStars_Example/Pods-SimpleStars_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7989880A86812BDF23258FBBD8E0A212 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91AB0742C7A22011CEAB8FCAE7CA4275 /* SimpleStars.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleStars/SimpleStars-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleStars/SimpleStars-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleStars/SimpleStars.modulemap";
-				PRODUCT_MODULE_NAME = SimpleStars;
-				PRODUCT_NAME = SimpleStars;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -731,7 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -744,11 +565,12 @@
 			};
 			name = Debug;
 		};
-		F3CC994CC8C003A830A31D34449321CC /* Debug */ = {
+		5FAC6A642A5116AADEB48AA039F04D48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 565663999660363DBAF3D577F9AF72AA /* Pods-SimpleStars_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -771,9 +593,169 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7FF00EF9432D8105FD9691235676DDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC635BF48B8F6B519CD64A57F9049948 /* Pods-SimpleStars_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleStars_Tests/Pods-SimpleStars_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleStars_Tests/Pods-SimpleStars_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		883B5F057FEFDC611B645B4B00EEFF57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9B2BDDDB1A99919794E097D34D4B21 /* Pods-SimpleStars_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleStars_Example/Pods-SimpleStars_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleStars_Example/Pods-SimpleStars_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E614E88E2EA3D66D4EC9C567AAE4E088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706FE05B35F68AD360733590768CBB94 /* SimpleStars.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleStars/SimpleStars-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleStars/SimpleStars-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleStars/SimpleStars.modulemap";
+				PRODUCT_MODULE_NAME = SimpleStars;
+				PRODUCT_NAME = SimpleStars;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -786,17 +768,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B244B6E10B567BEEF012658BC9817348 /* Build configuration list for PBXNativeTarget "SimpleStars" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1B33E8C9EB1BB4559256ABA8EA7B85EA /* Debug */,
-				7989880A86812BDF23258FBBD8E0A212 /* Release */,
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -804,8 +777,8 @@
 		B9003142C976429940AFCC166CDB60A7 /* Build configuration list for PBXNativeTarget "Pods-SimpleStars_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3CC994CC8C003A830A31D34449321CC /* Debug */,
-				54D3F8EF3433B24A85B8E2002C69DB50 /* Release */,
+				5FAC6A642A5116AADEB48AA039F04D48 /* Debug */,
+				883B5F057FEFDC611B645B4B00EEFF57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -813,8 +786,17 @@
 		BCB4AD56D0128E5D44B88675E22156DD /* Build configuration list for PBXNativeTarget "Pods-SimpleStars_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26E7B75F376CF2BDC93667F3BCA0D99D /* Debug */,
-				33BDB2E46DA2C67DA135CDD020EB2215 /* Release */,
+				7FF00EF9432D8105FD9691235676DDC0 /* Debug */,
+				153F8403F287D3D981206408A4B24C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD45B3747DAE7ED98C01D3E3B59D367 /* Build configuration list for PBXNativeTarget "SimpleStars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E614E88E2EA3D66D4EC9C567AAE4E088 /* Debug */,
+				066A96F36E764B74650EFA28A4E1A52A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

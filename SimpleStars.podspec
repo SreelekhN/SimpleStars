@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SimpleStars'
-  s.version          = '0.1.2'
+  s.version          = '1.0.0'
   s.summary          = 'A simple way to add star ratings in your ios app. simple, short and with all customization you generally need'
   s.description  = "A simple way to add star ratings in your ios app. simple, short and with all customization you generally need. Register the delegate to unlock customization, which are declared optional"
   s.homepage         = 'https://github.com/SreelekhN/SimpleStars'
