@@ -1,0 +1,6 @@
+framework module SimpleStars {
+  umbrella header "SimpleStars-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '16.1'
+
+target 'SimpleStars_Example' do
+  pod 'SimpleStars', :path => '../'
+
+  target 'SimpleStars_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

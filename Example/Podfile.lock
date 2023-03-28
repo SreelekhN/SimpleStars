@@ -1,0 +1,16 @@
+PODS:
+  - SimpleStars (0.1.0)
+
+DEPENDENCIES:
+  - SimpleStars (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleStars:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleStars: 19c57fb6b1f04a45f22f07d02691ca8911cbfce0
+
+PODFILE CHECKSUM: 93515caa45f963a405d0279c0717e54b1379f741
+
+COCOAPODS: 1.11.3
