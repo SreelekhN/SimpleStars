@@ -7,7 +7,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SreelekhN' => 'sreelekhn@gmail.com' }
   # s.platform         = :ios, "16.1"
-  s.source           = { :git => 'https://github.com/SreelekhN/SimpleStars.git', :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/SreelekhN/SimpleStars.git", :branch => "master",
+                     :tag => s.version.to_s }
+  
   s.ios.deployment_target = '11.0'
   
   s.source_files = 'Source/**/*'
